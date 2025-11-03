@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Site Title Div */
+#site-title {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* Buffer/Container Div */
+#container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Navigation Links */
+#nav-links {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Hyperlink Pseudo Classes */
+a:link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffc107;
+}
+
+/* Inner Container for Horizontal Divs */
+#inner-horizontal-group {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Three Inner Divs (used for the content container) */
+.inner-div {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%; /* Default width */
+    margin: 0 0.5%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #e9ecef;
+    text-align: left;
+    min-height: 300px;
+    box-sizing: border-box;
+}
+
+/* Table Style */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+th {
+    background-color: #dee2e6;
+    font-size: 1em;
+}
+
+/* Empty Div Style */
+.empty-div {
+    height: 10px;
+    visibility: hidden;
+}

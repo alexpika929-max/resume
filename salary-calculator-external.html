@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alexander Lopez - Salary Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="salary_calculator.js"></script>
+</head>
+<body>
+    <div id="site-title">
+        <h1>Resume of Alexander Lopez: Salary Calculator</h1>
+    </div>
+    <div id="container">
+        <div id="nav-links">
+            <a href="work-experience-external.html" title="View Work Experience">Work Experience</a>
+            <a href="education-contact-external.html" title="View Education and Contact">Education & Contact</a>
+            <a href="skills-external.html" title="View My Skills">Skills</a>
+            <a href="salary-calculator-external.html" title="Use the Salary Calculator">Salary Calculator</a>
+        </div>
+        <div id="inner-horizontal-group">
+            <div class="inner-div" id="calculator" style="width: 99%;">
+                <h2>Salary Calculator</h2>
+                <p>Please fill out the information below to see how much an hourly wage equals annually:</p>
+                
+                <label for="hourly_wage">Enter Hourly Rate ($):</label><br>
+                <input type="text" id="hourly_wage" name="hourly_wage" value=""><br><br>
+                
+                <label for="hours_per_week">Enter Hours per Week:</label><br>
+                <input type="text" id="hours_per_week" name="hours_per_week" value=""><br><br>
+                
+                <button onclick="calculateSalary()">Check Salary</button>
+                
+                <p style="margin-top: 15px;">The estimated salary is:</p>
+                <p id="salary_output" style="font-weight: bold; color: #007bff;">[Result will appear here]</p>
+
+            </div>
+            <div class="empty-div">.</div>
+            <div class="empty-div">.</div>
+        </div>
+    </div>
+</body>
+</html>
